@@ -1,0 +1,57 @@
+.grid-container {
+  display: grid;
+  grid-column: 1fr 3fr 1fr;
+  grid-row: 1fr 2fr 2fr 1fr;
+  grid-template-areas:
+  "t_nav t_nav t_nav"
+  "google google google"
+  "search search search"
+  "button button button"
+  "b_bnav b_bnav b_bnav";
+
+}
+
+#t_nav {
+	
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    float: left;
+    grid-area: t_nav 
+
+}
+
+#about {
+	display: inline;
+	align-self: left;
+}
+
+#store {
+	display: inline;
+	align-self: left;
+}
+
+#gmail {
+	display: inline;
+	align-self: right;
+}
+
+#images {
+	display: inline;
+	align-self: right;
+}
+
+#apps {
+	display: inline;
+	align-self: right;
+}
+
+#login {
+	display: inline;
+	align-self: right;
+}
+
+#google {
+	grid-area: google;
+	margin-top; 100;
+}
